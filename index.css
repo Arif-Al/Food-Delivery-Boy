@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:slnt,wght@-10..0,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px ;
+    padding: 0px ;
+}
+
+.container {
+    padding: 0 80px !important;
+    margin: 0 auto;
+
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    position: sticky;
+
+    background-color: #fff;
+    box-shadow: 0px 12px 20px -6px rgba(0,0,0,0.84);
+    z-index: 1;
+    padding: 10px 10px  !important;
+    margin: 0px !important;
+    
+
+
+
+}
+
+
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-links ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.login {
+    border: none;
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18;
+    font-weight: bold;
+    
+    margin-right: 5px;
+}
+
+.signup-btn {
+    border: none;
+    background: #E94339;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.hero-img {
+    width: 500px;
+    height: auto;
+    background: #F2EBDA;
+    border-radius: 20px;
+    animation: hero-img-animation 8s ease 0s infinite normal none;
+}
+
+.hero-section-left h1 {
+    font-size: 61px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.hero-section-left p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+padding: 20px 0px;
+
+}
+
+.order-btn-input {
+    position: relative;
+    margin: 15px 0px;
+}
+
+.order-btn-input input {
+    width: 360px;
+    height: 35px;
+    border-radius: 45px;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+.order-btn-input input[ type="text"] {
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+.order-btn-input input:focus {
+    outline: none;
+}
+
+.order-btn-input button {
+    position: relative;
+    border: none;
+    background: #E94339;
+    color: #fff;
+    border-radius: 50px;
+    /* left: 5%; */
+    top: 40%;
+    padding: 25px 28px;
+}
+
+.top-btn {
+    display: flex;
+}
+
+.btn-App-store {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 20px 0px 0px;
+}
+
+.first {
+    margin-right: none;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.order-numbers {
+    text-align: center;
+    margin: 68px 0 20px;
+}
+
+.order-numbers h1 {
+
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+
+.order-numbers h1 span {
+    color: #FF5331;
+
+}
+
+.order-numbers p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #191720;
+    ;
+}
+
+/* food items deals*/
+
+.food-deals-cards {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    padding: 2% 3%;
+    border-radius: 30px;
+    margin: 15px 60px;
+
+}
+
+.cards :hover {
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 1px 6px 14px -3px rgba(0,0,0,0.83);
+}
+
+
+.cards span {
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+
+.food-card-items {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.delevry-card {
+    background: #FAFAFA;
+    border-radius: 28px;
+    padding: 30px;
+
+}
+
+.delevry-card span {
+    color: #FF5331;
+
+}
+
+.delevry-card .free-devery {
+    color: #009B00;
+
+}
+
+.delevry-card h3 {
+    font-size: 25.8;
+    font-family: "Inter", sans-serif;
+}
+
+.bike {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+
+}
+
+/* second card  */
+.second-card-items {
+    display: flex;
+    margin: 20px 0px;
+    font-size: 25px;
+
+
+}
+
+.card-para {
+    font-size: 25px;
+    color: #494949;
+    font-family: "Inter", sans-serif;
+}
+
+/* how to order */
+
+.how-to-order {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #2E2C49;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    margin: 3% 0px;
+    margin-top: 50px;
+
+}
+
+.img-and-card {
+   display: flex;
+    
+    
+
+}
+
+.first-card {
+    display: flex;
+}
+
+.numbers {
+position: absolute;
+font-size: 40px;
+top: 148%;
+left: 200px;
+color: #FF5331;
+
+
+}
+
+.food-cards {
+   position: relative;
+   right: -230px;
+   background-color: #FAFAFA;
+   padding: 8% 26%;
+   border-radius: 20px;
+   
+}
+
+.number-2 {
+    position: absolute;
+    font-size: 40px;
+    top: 148%;
+    left: 600px;
+    color: #FF5331;
+}
+
+.food-cards-2 {
+    position: relative;
+    background-color: #FAFAFA;
+    padding: 8% 26%;
+    border-radius: 20px;
+    left: 530px;
+}
+
+.number-3 {
+    position: absolute;
+    font-size: 40px;
+    top: 148%;
+     left: 1090px;
+    color: #FF5331;
+}
+
+.food-cards-3 {
+    position: relative;
+    left: 900px;
+   background-color: #FAFAFA;
+   padding: 8% 26%;
+   border-radius: 20px;
+}
+
+.number-4 {
+    position: absolute;
+    font-size: 40px;
+    top: 148%;
+     left: 1580px;
+    color: #FF5331;   
+}
+
+.food-cards-4 {
+    position: relative;
+   background-color: #FAFAFA;
+   padding: 8% 26%;
+   border-radius: 20px;
+   left: 1300px;
+}
+
+ 
+.stle-p {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+}
+
+.stle-p span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+
+
+.Arrow {
+    display: flex;
+    justify-content: center;
+    margin: 2% 5%;
+    border: none;
+
+
+}
+
+.Arrow .Arrow-2 img {
+    justify-content: space-between;
+}
+
+.next-seassion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFEFEC;
+    height: 300px;
+}
+
+.next-seassion h1 {
+    font-size: 46px;
+    font-weight: 600;
+    padding-left: 28px;
+    font-family: "Poppins", sans-serif;
+}
+
+.next-seassion p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 28px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -3%;
+}
+
+.input-btn input {
+    position: relative;
+    width: 700px;
+    height: 60px;
+    border: none;
+    border-radius: 31px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+
+.input-btn button {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 31px;
+    font-size: 17px;
+    right: 39px;
+    color: #fff;
+    background-color: #FF5331;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: black;
+    background-size: cover;
+
+}
+
+
+.footer-btns {
+    display: flex;
+    align-self: center;
+
+}
+
+.footer-img {
+    position: absolute;
+    top: 12%;
+    left: 15%;
+   
+ 
+ 
+}
+
+
+.apple {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 25px;
+
+
+}
+.apple img{
+padding: 5px;
+}
+
+.google-play {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 5px;
+    padding: 5px;
+
+
+}
+.google-play img{
+padding: 4px;
+
+
+}
+
+.apple .btn-apple h2 {
+    text-align: center;
+    color: #090909;
+    padding-left: 13px;
+    margin: 5px 0px;
+
+}
+
+.google-play .btn-apple h2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding-left: 13px;
+
+}
+
+.footer-ul {
+    display: flex;
+    color: #fff;
+ 
+}
+.first {
+    font-weight: bold;
+}
+
+.footer-ul li {
+    list-style-type: none;
+    padding-right: 30px;
+    margin: 20px 40px;
+    color: #AAA7B1;
+     
+}
+
+.last {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: -3%;
+    left: 300px;
+    padding-top: 20px;
+   
+
+
+}
+
+.last ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 800px;
+
+}
+
+.last ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+/* animation */
+
+@keyframes hero-img-animation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateY(-8px);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateY(8px);
+    }
+
+    80% {
+        transform: translateY(6.4px);
+    }
+
+    90% {
+        transform: translateY(-6.4px);
+    }
+}
